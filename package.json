@@ -1,0 +1,23 @@
+{
+  "name": "twitter-slab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "process/app.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slabs-io/Twitter.git"
+  },
+  "author": "Ben Brunton <ben@slabs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slabs-io/Twitter/issues"
+  },
+  "homepage": "https://github.com/slabs-io/Twitter",
+  "dependencies": {
+    "q": "^1.2.0",
+    "twitter": "^1.2.5"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name" : "Twitter",
+  "description" : "returns a list of tweets",
+  "type" : "source",
+  "connectionsIn" : 1,
+  "connectionsOut" : -1,
+  "customIcon" : "fa-twitter",
+  "schema" : {
+    "type": "object",
+    "properties" : {
+      "query": {
+        "type": "string",
+        "default": "slabs",
+        "title": "Your search query",
+        "brief": "Query"
+      },
+      "since": {
+        "type": "number",
+        "default": 1,
+        "title": "tweets in last number of hours",
+        "brief": "hours"
+      }
+    }
+  },
+  "data":{
+    "schema":{
+      "value":"number",
+      "url":"url"
+    }
+  },
+  "source": {
+    "label": "Core Slab",
+    "url": "http://slabs.io/"
+  }
+}
